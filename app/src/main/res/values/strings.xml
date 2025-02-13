@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">TODO_LIST_APP</string>
+
+    <string name="OnboardTitle1">Welcome to Your To-Do List!</string>
+    <string name="OnboardDescription1">Stay organized and on top of your tasks with ease. Lets get started by adding your first task!</string>
+    <string name="OnboardTitle2">Create Tasks</string>
+    <string name="OnboardDescription2">Add tasks, set deadlines, and organize your to-do list. Your productivity just got easier!</string>
+    <string name="OnboardTitle3">Stay on Track</string>
+    <string name="OnboardDescription3">Mark tasks as completed and watch your progress. Keep moving forward, one task at a time!</string>
+    <string name="next">Next</string>
+    <string name="toadytask">Toady\'s Task</string>
+    <string name="cut">x</string>
+    <string name="add">+</string>
+    <string name="cancel">X</string>
+    <string name="notifications">Notifications</string>
+    <string name="search">Search</string>
+    <string name="priority">Priority</string>
+    <string name="tasks">Tasks</string>
+    <string name="enter_your_task">Enter Your Task</string>
+    <string name="add_priority">Add Priority</string>
+    <string name="enter_details">Enter Details</string>
+    <string name="update_details">Update Details</string>
+    <string name="update_task">Update Task</string>
+    <string name="update_priority">Update Priority</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="status_active">Status : Active</string>
+    <string name="status">Status</string>
+    <string name="active">Active</string>
+    <string name="completed">Completed</string>
+    <string name="due_date">Due Date</string>
+    <string name="create_task">Create Task</string>
+    <string name="select_due_date">Select Due Date</string>
+    <string name="update_due_date">Update Due Date</string>
+
+</resources>

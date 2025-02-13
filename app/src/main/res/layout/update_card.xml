@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/beige"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_details"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/update_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/update_task"
+        android:inputType="text"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:background="@drawable/custom_edittetext"
+        android:textColorHint="#BFBBBB"
+        android:textColor="@color/white"
+        />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/update_priority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/update_priority"
+        android:inputType="text"
+        android:padding="15dp"
+        android:background="@drawable/custom_edittetext"
+        android:textColorHint="#BFBBBB"
+        android:textColor="@color/white"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/updateTask_due_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:background="@drawable/custom_edittetext"
+        android:clickable="true"
+        android:focusable="false"
+        android:hint="@string/update_due_date"
+        android:importantForAccessibility="no"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="#BFBBBB" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/status"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+    <com.google.android.material.radiobutton.MaterialRadioButton
+        android:id="@+id/statusActive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginEnd="20dp"
+        android:text="@string/active" />
+
+    <com.google.android.material.radiobutton.MaterialRadioButton
+        android:id="@+id/statusCompleted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="20dp"
+        android:text="@string/completed"/>
+</RadioGroup>
+
+
+<LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/update_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="@string/update"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF5722"
+            android:textSize="24sp"
+            android:text="@string/delete"/>
+    </LinearLayout>
+
+</LinearLayout>

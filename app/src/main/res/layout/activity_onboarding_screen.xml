@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/beige"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="595dp"
+        android:layout_weight="1"
+        android:background="@color/beige" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/OnBoardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="70dp"
+        android:text="@string/next"
+        android:textColor="@color/beige" />
+
+</LinearLayout>
+
