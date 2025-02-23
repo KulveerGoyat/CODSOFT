@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">QUOTE OF THE DAY</string>
+    <string name="favourite_quotes">Favourite Quotes</string>
+    <string name="back">back</string>
+    <string name="share">Share</string>
+    <string name="saved_quotes">Saved Quotes</string>
+    <string name="refresh">Refresh</string>
+    <string name="quote_of_the_day">Quote Of The Day</string>
+    <string name="dailyquotes">DailyQuotes</string>
+    <string name="saved_quote">Saved Quotes</string>
+    <string name="search">Search</string>
+    <string name="notifications">Notifications</string>
+</resources>

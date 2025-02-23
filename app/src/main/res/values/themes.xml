@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.QUOTE_OF_THE_DAY" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <item name="textFillColor">@color/black</item>
+        <item name="fontFamily">@font/agbalumo</item>
+    </style>
+
+    <style name="Theme.QUOTE_OF_THE_DAY" parent="Base.Theme.QUOTE_OF_THE_DAY">
+    <item name="colorPrimary">@color/black</item>
+    <item name="textFillColor">@color/black</item>
+    <item name="fontFamily">@font/agbalumo</item>
+    </style>
+</resources>
